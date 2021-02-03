@@ -1,0 +1,25 @@
+{
+    "name": "asterism/twilio",
+    "description": "SMS sending using Twilio",
+    "keywords": [
+        "Twilio","Laravel","composer", "php"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "asterism",
+            "email": "asterisminfosoft@gmail.com"
+        }
+    ],
+    "require": {
+                "php": ">=7.4.0",
+		        "twilio/sdk": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "asterism\\Twilio\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+
+}
